@@ -1,0 +1,226 @@
+.galleryImagesBigBox{
+    display: flex;
+    width: 100%;
+    height: 1235px;
+    background: #faf3eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageBigBox{
+    display: flex;
+    height: 1035px;
+    width: 77.5%;
+}
+
+.imageBoxLeft{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.imageBoxUpperLeft{
+    display: flex;
+    width: 100%;
+    height: 340px;
+}
+
+.imageBox1Left{
+    width: 50%;
+    height: 100%;
+}
+
+.image1Box1Left{
+    width: 96%;
+    height: 150px;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/56a9c59e86d180a323b1e940_beans-coffee-morning-espresso.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image1Box1Left:hover{
+    opacity: 0.8;
+}
+
+.image2Box1Left{
+    width: 96%;
+    height: 150px;
+    margin-top: 21px;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/5e3422456902d605754a59cb_woman-drinking-wine-761854.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image2Box1Left:hover{
+    opacity: 0.8;
+}
+
+.imageBox2Left{
+    width: 50%;
+    height: 100%;
+}
+
+.image1Box2Left{
+    width: 96%;
+    height: 150px;
+    margin-left: 8.5px;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/56a9c65c67ff371131ce0940_menu-coffee-outside-cafe.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image1Box2Left:hover{
+    opacity: 0.8;
+}
+
+.image2Box2Left{
+    width: 96%;
+    height: 150px;
+    margin-top: 21px;
+    margin-left: 8.5px;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/5e34222b6902d66c404a5987_adult-bar-cafe-city-employee-240223.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image2Box2Left:hover{
+    opacity: 0.8;
+}
+
+.imageBoxDownLeft{
+    display: flex;
+    width: 100%;
+    height: 695px;
+    justify-content: center;
+}
+
+.imageBoxDownLeft1{
+    width: 95%;
+    height: 97%;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/55d82ae7a811abde4e36a0d0_Reservation-image.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.imageBoxDownLeft1:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+.imageBoxRight {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageBoxUpperRight{
+    display: flex;
+    width: 100%;
+    height: 695px;
+}
+
+.imageBoxDownRight1{
+    width: 96%;
+    height: 97%;
+    margin-left: 18px;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/56a9c6d767ff371131ce0a25_Interior-2.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.imageBoxDownRight1:hover{
+    opacity: 0.8;
+}
+
+.imageBoxDownRight{
+    display: flex;
+    width: 97.5%;
+    height: 340px;
+    margin-left: 11.5px;
+}
+
+.imageBox1Right {
+    width: 50%;
+    height: 100%;
+}
+
+.image1Box1Right {
+    width: 94%;
+    height: 150px;
+    margin-left: 7px;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/5e34222a43be9d0eb253851a_adult-attractive-background-beautiful-544117.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image1Box1Right:hover{
+    opacity: 0.8;
+}
+
+.image2Box1Right {
+    width: 94%;
+    height: 150px;
+    margin-top: 21px;
+    margin-left: 7px;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/5e3422456902d69b9c4a59ca_group-of-person-eating-indoors-3184187.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image2Box1Right:hover{
+    opacity: 0.8;
+}
+
+.imageBox2Right {
+    width: 50%;
+    height: 100%;
+}
+
+.image1Box2Right {
+    width: 96%;
+    height: 150px;
+    margin-left: 8.5px;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/56a9c5ab3ba7b00c319f03f9_restaurant-coffee-cup-cappuccino.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image1Box2Right:hover{
+    opacity: 0.8;
+}
+
+.image2Box2Right {
+    width: 96%;
+    height: 150px;
+    margin-top: 21px;
+    margin-left: 8.5px;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/5e34222b6902d66c404a5987_adult-bar-cafe-city-employee-240223.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image2Box2Right:hover{
+    opacity: 0.8;
+}

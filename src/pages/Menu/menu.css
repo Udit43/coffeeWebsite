@@ -1,0 +1,11 @@
+.menu{
+    display: flex;
+}
+
+.sidebar {
+    flex: 0.244;
+}
+
+.parent {
+    flex: 1;
+}

@@ -1,0 +1,149 @@
+.everTriedThese{
+    display: flex;
+    width: 100%;
+    height: 615px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 0.1)), url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/55d82921cb4beddf4e1b4a23_BG-food.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    justify-content: center;
+}
+
+.everTriedTheseBigBox {
+    height: 415px;
+    width: 77.5%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.everTriedTheseMenuItem1 {
+    text-align: center;
+    color: #333;
+    font-size: 62px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.everTriedTheseMenuItem2 {
+    text-align: center;
+    color: #c7b9a9;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+.everTriedTheseMenuItem3{
+    height: 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.everLine{
+    height: 1px;
+    color: #333;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin-top: 35px;
+}
+
+.transparenteverTriedTheseBox {
+    width: 100%;
+    height: 269px;
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+.transparentBox1 {
+    width: 99.5%;
+    height: 60px;
+    margin-top: 19px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.transparentBox2 {
+    width: 99.5%;
+    height: 60px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.transparentBox3 {
+    width: 99.5%;
+    height: 60px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.transparentLeft {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.transparentLeft1 {
+    height: 60px;
+    width: 79.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.transparentLeft1_1 {
+    width: 100%;
+    height: 22px;
+    font-size: 15px;
+    color: #333;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+.transparentLeft1_2 {
+    width: 100%;
+    height: 22px;
+    font-size: 13px;
+    color: #9e9e9e;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.transparentLeft2 {
+    height: 60px;
+    width: 20.5%;
+    display: flex;
+}
+
+.transparentLeft2_1 {
+    text-align: center;
+    height: 24px;
+    width: 45px;
+    margin-left: 20px;
+    margin-top: 16px;
+    background: #e88f2a;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.transparentRight {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}

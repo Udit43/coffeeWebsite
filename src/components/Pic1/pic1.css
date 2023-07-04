@@ -1,0 +1,180 @@
+.pic1 {
+    display: flex;
+    height: calc(100vh);
+    background-image: url("https://e0.pxfuel.com/wallpapers/429/101/desktop-wallpaper-woman-girl-person-winter-coffee-cup-best-high-quality-girl-drinking.jpg");
+    background-size: cover;
+
+}
+
+.opa {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+}
+
+.pic1Box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 245px;
+    /* width: 100%; */
+}
+
+.arrowLeft {
+    width: 100px;
+    height: 80px;
+    margin-top: 111px;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.left {
+    color: white;
+    font-size: 25px;
+}
+
+.arrowLeft:hover {
+    background: white;
+}
+
+.arrowLeft:hover .left {
+    color: black;
+}
+
+.middleBox {
+    width: 971px;
+    height: 302px;
+    margin-left: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middleBoxItem1 {
+    color: #eda03b;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Satisfy', cursive;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.middleBoxItem2 {
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    font-size: 95px;
+    text-align: center;
+    /* margin-top: -13px; */
+    line-height: 1;
+}
+
+.middleBoxItem3 {
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 0px 6px black;
+    line-height: 1;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    /* margin-top: -13px; */
+}
+
+.middleBoxItem4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+    justify-content: center;
+}
+
+.item4Button1Link{
+    color: white;
+    height: 48px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    margin-left: 343px;
+}
+
+.item4Button1 {
+    background-color: #eda03b;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    height: 48px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    /* margin-right: 5px; */
+    font-size: 14px;
+    /* margin-top: 25px; */
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.item4Button1:hover {
+    background-color: white;
+    color: #eda03b;
+}
+
+.item4Button2Link {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.item4Button2 {
+    background-color: #2b2825;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    height: 48px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    /* margin-top: 25px; */
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.item4Button2:hover {
+    background-color: #e88f2a;
+}
+
+
+
+.arrowRight {
+    width: 100px;
+    height: 80px;
+    margin-top: 111px;
+    margin-left: 23px;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.right {
+    color: white;
+    font-size: 25px;
+}
+
+.arrowRight:hover {
+    background: white;
+}
+
+.arrowRight:hover .right {
+    color: black;
+}

@@ -1,0 +1,84 @@
+.menuSection {
+    width: 100%;
+    height: 568px;
+    background: url("https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.opaa {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 568px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuMainBox {
+    width: 77%;
+    height: 320px;
+}
+
+.menuItem1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 1;
+    text-align: center;
+}
+
+.menuItem2 {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #c7b9a9;
+    margin-top: 15px;
+    line-height: 1;
+}
+
+.belowBox {
+    width: 100%;
+    height: 150px;
+    margin-top: 70px;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.bb {
+    height: 150px;
+    width: 25.6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.upperBoxItem1 {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.hotcuup {
+    color: white;
+    font-size: 80px;
+    opacity: 100;
+}
+
+.upperBoxItem2 {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}

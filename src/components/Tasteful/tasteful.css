@@ -1,0 +1,152 @@
+.tasteful {
+    width: 100%;
+    height: 530px;
+    background: #faf3eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tastefulBox {
+    width: 77%;
+    height: 325px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftTaste {
+    width: 50%;
+    height: 325px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+.rightTaste {
+    width: 50%;
+    height: 325px;
+}
+
+.leftTasteItem1 {
+    color: #eda03b;
+    font-size: 26px;
+    font-family: 'Satisfy', cursive;
+    line-height: 1;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.leftTasteItem2 {
+    color: #333;
+    text-align: center;
+    font-size: 62px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 0.9;
+    margin-top: 13px;
+}
+
+.leftTasteItem3 {
+    color: #c7b9a9;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.item4Parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.leftTasteItem4 {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.09);
+    opacity: 100%;
+    width: 40%;
+
+}
+
+.leftTasteItem5 {
+    width: 83%;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 38px;
+    line-height: 1.3;
+}
+
+.upperRightDiv {
+    width: 100%;
+    height: 151px;
+    display: flex;
+    flex-direction: row;
+}
+
+.upperRight1 {
+    width: 48.5%;
+    height: 153px;
+    background-image: url("https://e0.pxfuel.com/wallpapers/429/101/desktop-wallpaper-woman-girl-person-winter-coffee-cup-best-high-quality-girl-drinking.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upperRight1:hover {
+    opacity: 80%;
+}
+
+.upperRight2 {
+    width: 48.5%;
+    height: 153px;
+    background-image: url("https://cdn.pixabay.com/photo/2014/07/31/00/40/coffee-cup-405918_1280.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.upperRight2:hover {
+    opacity: 80%;
+}
+
+.lowerRightDiv {
+    margin-top: 16px;
+    width: 100%;
+    height: 151px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lowerRight1 {
+    width: 48.5%;
+    height: 153px;
+    background-image: url("https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,q_60,w_1315/603ce4223eec9d292db1b6b896459d39.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lowerRight1:hover {
+    opacity: 80%;
+}
+
+.lowerRight2 {
+    width: 48.5%;
+    height: 153px;
+    background-image: url("https://www.ncausa.org/portals/56/coffee-resized-2.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.lowerRight2:hover {
+    opacity: 80%;
+}

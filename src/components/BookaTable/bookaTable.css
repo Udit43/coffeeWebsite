@@ -1,0 +1,210 @@
+.bookaTable{
+    display: flex;
+    width: 100%;
+    height: 702px;
+    background: #faf3eb;
+    justify-content: center;
+}
+
+.bookaTableBigBox{
+    display: flex;
+    height: 513px;
+    width: 79%;
+    margin-top: 100px;
+}
+
+.bookaTableLeftBox {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookaTableLeftBoxItem1 {
+    font-size: 26px;
+    color: #eda03b;
+    line-height: 0.8;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bookaTableLeftBoxItem2 {
+    text-align: center;
+    font-size: 62px;
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 14px;
+}
+
+.bookaTableLeftBoxItem3 {
+    height: 1px;
+    width: 33%;
+    color: #333;
+    background: rgba(0, 0, 0, 0.09);
+    margin-top: 35px;
+}
+
+.bookaTableLeftBoxItem4 {
+    display: flex;
+    width: 100%;
+    height: 362px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bookaTableInput1 {
+    height: 46px;
+    width: 78%;
+    border-radius: 3px;
+    border: 2px white solid;
+    color: #333;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    padding-left: 12px;
+    margin-top: 25px;
+}
+
+.bookaTableInput2 {
+    height: 46px;
+    width: 78%;
+    border-radius: 3px;
+    border: 2px white solid;
+    color: #333;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    padding-left: 12px;
+    margin-top: 4px;
+}
+
+.bookaTableInput7{
+    height: 46px;
+    width: 81%;
+    margin-top: 4px;
+    display: flex;
+    border-radius: 3px;
+}
+
+.bookaTableInput3 {
+    height: 46px;
+    width: 49.5%;
+    border-radius: 3px;
+    border: 2px white solid;
+    color: #333;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    padding-left: 12px;
+    background: #f3f3f3;
+    
+}
+
+.bookaTableInput3:hover{
+    border-color: #d9d9d9;
+    transition: 0.3s ease;
+}
+
+.bookaTableInput6{
+    height: 46px;
+    width: 49.5%;
+    border-radius: 3px;
+    border: 2px white solid;
+    color: #333;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    padding-left: 12px;
+    margin-left: 4px;
+    background: #f3f3f3;
+}
+
+.bookaTableInput6:hover{
+    border-color: #d9d9d9;
+    transition: 0.3s ease;
+}
+
+.bookaTableInput4 {
+    height: 108px;
+    width: 78%;
+    border-radius: 3px;
+    border: 2px white solid;
+    color: #333;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    padding-left: 12px;
+    margin-top: 4px;
+    padding-top: 8px;
+}
+
+.bookaTableInput5 {
+    width: 81.3%;
+    font-size: 14px;
+    color: white;
+    background: #2b2825;
+    height: 46px;
+    border-radius: 3px;
+    margin-top: 14px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    border: 0;
+}
+
+.bookaTableInput5:hover {
+    background: #eda03b;
+    transition: 0.3s ease;
+}
+
+.bookaTableRightBox {
+    width: 50%;
+    height: 100%;
+}
+
+.bookaTableRightBoxImgaeDiv {
+    width: 100%;
+    height: 497px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.bookaTableRightBoxImage1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.bookaTableRightBoxImage1_1{
+    height: 100%;
+    width: 91%;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/55d82ae7a811abde4e36a0d0_Reservation-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.bookaTableRightBoxImage2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.bookaTableRightBoxImage2_1{
+    height: 100%;
+    width: 91%;
+    border-radius: 4px;
+    background: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/55d82af3d90693dd61051fcc_Interior.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}

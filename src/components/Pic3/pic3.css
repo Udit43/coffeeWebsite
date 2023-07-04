@@ -1,0 +1,180 @@
+.pic3{
+    display: flex;
+    height: calc(100vh);
+    background-image: url("https://images.pexels.com/photos/3184187/pexels-photo-3184187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+
+}
+
+.opaPic3 {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+}
+
+.pic3Box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 245px;
+    /* width: 100%; */
+}
+
+.arrowLeftPic3 {
+    width: 100px;
+    height: 80px;
+    margin-top: 111px;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.leftPic3 {
+    color: white;
+    font-size: 25px;
+}
+
+.arrowLeftPic3:hover {
+    background: white;
+}
+
+.arrowLeftPic3:hover .leftPic3 {
+    color: black;
+}
+
+.middleBoxPic3 {
+    width: 971px;
+    height: 302px;
+    margin-left: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middleBoxItem1Pic3 {
+    color: #eda03b;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Satisfy', cursive;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.middleBoxItem2Pic3 {
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    font-size: 95px;
+    text-align: center;
+    /* margin-top: -13px; */
+    line-height: 1;
+}
+
+.middleBoxItem3Pic3 {
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 0px 6px black;
+    line-height: 1;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    /* margin-top: -13px; */
+}
+
+.middleBoxItem4Pic3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+    justify-content: center;
+}
+
+.item4Button1LinkPic3 {
+    color: white;
+    height: 48px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    margin-left: 343px;
+}
+
+.item4Button1Pic3 {
+    background-color: #eda03b;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    height: 48px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    /* margin-right: 5px; */
+    font-size: 14px;
+    /* margin-top: 25px; */
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+
+
+.item4Button1Pic3:hover {
+    background-color: white;
+    color: #eda03b;
+}
+
+.item4Button2LinkPic3 {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.item4Button2Pic3 {
+    background-color: #2b2825;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    height: 48px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    /* margin-top: 25px; */
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.item4Button2Pic3:hover {
+    background-color: #e88f2a;
+}
+
+.arrowRightPic3 {
+    width: 100px;
+    height: 80px;
+    margin-top: 111px;
+    margin-left: 23px;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.rightPic3 {
+    color: white;
+    font-size: 25px;
+}
+
+.arrowRightPic3:hover {
+    background: white;
+}
+
+.arrowRightPic3:hover .rightPic3 {
+    color: black;
+}

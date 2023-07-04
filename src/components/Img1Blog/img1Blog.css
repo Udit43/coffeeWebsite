@@ -1,0 +1,106 @@
+.img1Blog{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.img1BlogLeftBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.imageBlogLeftBox{
+    width: 98%;
+    height: 100%;
+    border-radius: 3px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    cursor: pointer;
+}
+
+.colorBox{
+    width: 100%;
+    height: 100%;
+}
+
+.colorBox:hover{
+    background: rgba(232, 143, 42, 0.8);
+    transition: 0.3s ease;
+}
+
+.img1BlogRightBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img1BlogRightBoxItem1{
+    margin-top: 75px;
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+    color: #eda03b;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    height: 28px;
+}
+
+.img1BlogRightBoxItem2{
+    width: 85%;
+    margin-top: 21px;
+    height: 70px;
+    line-height: 1;
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 34px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.img1BlogRightBoxItem2:hover{
+    color: #eda03b;
+    transition: 0.3s ease;
+}
+
+.img1BlogRightBoxItem3{
+    height: 1px;
+    color: #333;
+    width: 40%;
+    background: rgba(0, 0, 0, 0.09);
+    margin-top: 35px;
+}
+
+.img1BlogRightBoxItem4{
+    width: 82%;
+    height: 71px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.img1BlogRightBoxItem5{
+    height: 46px;
+    width: 111px;
+    color: white;
+    font-size: 14px;
+    background: #2b2825;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.img1BlogRightBoxItem5:hover{
+    background: #eda03b;
+    transition: 0.3s ease;
+}

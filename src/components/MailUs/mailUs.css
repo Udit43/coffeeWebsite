@@ -1,0 +1,213 @@
+.mailUs{
+    display: flex;
+    width: 100%;
+    height: 702px;
+    background: #faf3eb;
+    justify-content: center;
+}
+
+.mailUsBigBox{
+    display: flex;
+    height: 513px;
+    width: 79%;
+    margin-top: 100px;
+}
+
+.mailUsLeftBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mailUsLeftBoxItem1{
+    font-size: 26px;
+    color: #eda03b;
+    line-height: 0.8;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mailUsLeftBoxItem2{
+    text-align: center;
+    font-size: 62px;
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 14px;
+}
+
+.mailUsLeftBoxItem3{
+    height: 1px;
+    width: 33%;
+    color: #333;
+    background: rgba(0, 0, 0, 0.09);
+    margin-top: 35px;
+}
+
+.mailUsLeftBoxItem4{
+    display: flex;
+    width: 100%;
+    height: 362px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mailUsInput1{
+    height: 46px;
+    width: 78%;
+    border-radius: 3px;
+    border: 2px white solid;
+    color: #333;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    padding-left: 12px;
+    margin-top: 25px;
+}
+
+.mailUsInput2{
+    height: 46px;
+    width: 78%;
+    border-radius: 3px;
+    border: 2px white solid;
+    color: #333;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    padding-left: 12px;
+    margin-top: 4px;
+}
+
+.mailUsInput3{
+    height: 46px;
+    width: 78%;
+    border-radius: 3px;
+    border: 2px white solid;
+    color: #333;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    padding-left: 12px;
+    margin-top: 4px;
+}
+
+.mailUsInput4{
+    height: 108px;
+    width: 78%;
+    border-radius: 3px;
+    border: 2px white solid;
+    color: #333;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    padding-left: 12px;
+    margin-top: 4px;
+    padding-top: 8px;
+}
+
+.mailUsInput5{
+    width: 81.3%;
+    font-size: 14px;
+    color: white;
+    background: #2b2825;
+    height: 46px;
+    border-radius: 3px;
+    margin-top: 14px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    border: 0;
+}
+
+.mailUsInput5:hover{
+    background: #eda03b;
+    transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+.mailUsRightBox {
+    width: 50%;
+    height: 100%;
+}
+
+.mailUsRightBoxImgaeDiv{
+    width: 100%;
+    height: 497px;
+    border-radius: 3px;
+    background-image: url("https://uploads-ssl.webflow.com/559f85c38bde14cf4b3723cf/5e34222b6902d66c404a5987_adult-bar-cafe-city-employee-240223.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+    display: flex;
+}
+
+.mailUsRightBoxGradient{
+    width: 100%;
+    height: 300px;
+    margin-top: 196px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55) 49%,  rgba(255, 0, 0, 0.03))
+}
+
+.mailUsRightBoxItem1{
+    display: flex;
+    height: 44px;
+    font-size: 46px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 45px;
+}
+
+.mailUsRightBoxItem2{
+    display: flex;
+    font-size: 22px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    line-height: 1;
+    margin-top: 12px;
+    width: 80%;
+    margin-left: 45px;
+}
+
+.mailUsRightBoxItem3Link{
+    width: 127px;
+    height: 49px;
+    display: flex;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.mailUsRightBoxItem3{
+    width: 127px;
+    height: 49px;
+    font-size: 14px;
+    color: white;
+    background: #eda03b;
+    border-radius: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    border: 0;
+}
+
+.mailUsRightBoxItem3:hover{
+    background: #2b2825;
+    transition: 0.3s ease;
+}
